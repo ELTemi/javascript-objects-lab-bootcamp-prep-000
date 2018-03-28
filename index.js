@@ -19,9 +19,5 @@ function deleteFromObjectByKey(recipe, key) {
   return recipe
 }
 
-function deleteFromObjectByKey(recipe, key) {
-  newRecipe = Object.assign({}, recipe)
-  delete newRecipe.key
-  return newRecipe
-}
+
 
