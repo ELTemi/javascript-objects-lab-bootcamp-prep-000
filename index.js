@@ -18,6 +18,7 @@ function deleteFromObjectByKey(recipe, key) {
   newRecipe = Object.assign({}, recipe)
   delete newRecipe[key]
   return newRecipe
+  return recipe
 }
 
 function deleteFromObjectByKey(recipe, key) {
