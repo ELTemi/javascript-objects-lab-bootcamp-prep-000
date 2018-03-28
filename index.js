@@ -20,10 +20,7 @@ function deleteFromObjectByKey(recipe, key) {
   return newRecipe
 }
 
-function deleteFromObjectByKey(recipe, key) {
-  delete recipe[key]
-  return recipe
-}
+
 
 
 
