@@ -20,7 +20,7 @@ function deleteFromObjectByKey(recipe, key) {
 }
 
 function deleteFromObjectByKey(recipe, key) {
-  var newRecipe = Object.assign({}, recipe)
+  newRecipe = Object.assign({}, recipe)
   delete newRecipe.key
   return newRecipe
 }
